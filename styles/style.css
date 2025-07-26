@@ -324,3 +324,268 @@ button {
   font-weight: 500;
   color: #ffffff;
 }
+.footer-section {
+  height: 533px;
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-bunch-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.color-bunch-container input {
+  width: 600px;
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 2px;
+}
+
+.input-div {
+  display: flex;
+  margin: a;
+}
+
+.color-bunch-btn {
+  background-color: #e95a08;
+  padding: 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer-section-container {
+  max-width: 1140px;
+  height: 250px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 110px;
+}
+
+.div-1 img {
+  width: 80px;
+  height: 70px;
+}
+.div-1-description {
+  max-width: 300px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #00000080;
+}
+
+.div-2 ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+ul li {
+  margin-bottom: 15px;
+}
+
+.div-1 .div-2 a {
+  text-decoration: none;
+}
+.div-3 ul li {
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6b7280;
+}
+
+.div-4 img {
+  margin-right: 15px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .link1,
+  .link2 {
+    display: none;
+  }
+  .navbar {
+    padding: 15px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+
+  .banner-image-container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .flower-plants-section,
+  .join-section-container,
+  .footer-section-container {
+    flex-direction: column;
+  }
+
+  .plants-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .plants-card-container {
+    gap: 5px;
+    margin: auto;
+  }
+
+  .banner-title,
+  .banner-sub-title {
+    font-size: 1.8rem;
+  }
+  .banner-image-container {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .banner-container {
+    padding: 15px;
+  }
+
+  .plants-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .plants-description {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .plants-card {
+    max-width: 175px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .card-btn {
+    font-size: 1rem;
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+  .flower-plants-section {
+    margin-top: 50px;
+    margin: auto;
+  }
+
+  .flower-plants-section-left {
+    max-width: 400px;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .flower-plants-section-right-title {
+    font-size: 1.5rem;
+    font-weight: 700px;
+  }
+
+  .flower-store-image {
+    width: 100%;
+    margin: auto;
+  }
+
+  .trusted-badge {
+    display: none;
+  }
+
+  .flower-plants-section-right {
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .unorder-list li {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .join-section-title {
+    font-size: 2rem;
+  }
+  .latest-deals-description {
+    font-size: 1rem;
+    max-width: 400px;
+  }
+
+  .bloom-plant-discaount {
+    width: 350px;
+    margin: auto;
+  }
+  .ana-plant-discaount {
+    width: 350px;
+    margin: auto;
+  }
+
+  .zabo-plant-discount {
+    font-size: 1.25rem;
+  }
+  .zabo-btn {
+    font-size: 1rem;
+  }
+
+  .join-section-left {
+    width: 100%;
+  }
+
+  .join-section-right {
+    width: 350px;
+    height: 195px;
+    font-size: 1.25rem;
+    margin: auto;
+    padding: 15px;
+  }
+
+  .color-bunch-heading {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
+  .color-bunch-container input {
+    max-width: 216px;
+  }
+
+  .input-div {
+    margin: auto;
+  }
+
+  .footer-section {
+    height: 275px;
+  }
+
+  .footer-section-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .div-1 {
+    max-width: 300px;
+    text-align: start;
+  }
+  .div-2 {
+    max-width: 85px;
+    text-align: start;
+  }
+
+  .div-4 {
+    margin-bottom: 20px;
+  }
+}
